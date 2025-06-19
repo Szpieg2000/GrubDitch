@@ -1,0 +1,54 @@
+
+	@keyframes SlideUp {
+		0% {
+			transform: translateY(0);
+			color:#555556;
+		}
+		100% {
+			transform: translateY(-20%);
+			color:white;
+			background-color:#0177CF;
+			border-radius:15%;
+		}
+	}
+	
+	#PageHolder {
+		width:97%;
+		height:100%;
+		margin:auto;
+		padding:0 5px 0 5px;
+		background-color:white;
+	}
+	
+	#TopBar {
+		height:150px;
+		width:auto;
+		background-color:#F5F5F7;
+		text-align:center;
+		font-size: 40px;
+		font-famnily:"Courier New";
+	}
+	
+	#TopBar > a {
+		color:#555556;
+		display: inline-block;
+		
+	}
+	
+	
+	#TopBar > a:Hover {
+		animation: SlideUp 0.8s ease 0s 1 normal forwards;
+	}
+	
+	#Logo {
+		background-image: url("../Images/GrubDitchLogo.png");
+		background-color:#EFEFF2;
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height:100px;
+		width:100%;
+		border-radius:10%;
+		margin:auto;
+		margin-top:5px;
+	}

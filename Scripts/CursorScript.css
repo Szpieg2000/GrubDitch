@@ -1,0 +1,14 @@
+
+	body {
+		cursor: url("../SilkIcons/cursor.png"), text;
+	}
+	
+	:any-link {
+		cursor: url("../SilkIcons/application_go.png"), text;
+	}
+	
+	:read-write, :focus-visible {
+		cursor: url("../SilkIcons/text_italic.png"), text;
+		
+	}
+	
