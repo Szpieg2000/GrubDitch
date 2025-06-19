@@ -1,10 +1,10 @@
 
 	body {
-		cursor: url("../SilkIcons/cursor.png"), text;
+		cursor: url("../SilkIcons/cursor.png"), auto;
 	}
 	
 	:any-link {
-		cursor: url("../SilkIcons/application_go.png"), text;
+		cursor: url("../SilkIcons/application_go.png"), pointer;
 	}
 	
 	:read-write, :focus-visible {
