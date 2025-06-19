@@ -26,7 +26,7 @@
 		background-color:#F5F5F7;
 		text-align:center;
 		font-size: 40px;
-		font-famnily:"Courier New";
+		font-family:"Courier New";
 		border-bottom:2px solid #0177D0;
 	}
 	
@@ -51,5 +51,5 @@
 		width:100%;
 		border-radius:10%;
 		margin:auto;
-		margin-top:5px;
+		
 	}
