@@ -8,7 +8,7 @@ const SloganText = [
 function TopBarCreate() {
 
 	var PageHolder =  document.getElementById("PageHolder")
-	let TopBarCode = '<div id="Topbar">'
+	let TopBarCode = '<div id="Topbar" style="position:sticky; top:0;">'
 	TopBarCode = TopBarCode + '<div id="Logo"></div>'
 	TopBarCode = TopBarCode + '<a href="Home.html">Home Page</a> | '
 	TopBarCode = TopBarCode + '<a href="Articles.html">Articles</a> | '

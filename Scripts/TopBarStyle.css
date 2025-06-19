@@ -27,6 +27,7 @@
 		text-align:center;
 		font-size: 40px;
 		font-famnily:"Courier New";
+		border-bottom:2px solid #0177D0;
 	}
 	
 	#TopBar > a {
